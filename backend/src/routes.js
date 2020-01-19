@@ -1,6 +1,6 @@
 const { Router } = require('express')
-const DevController = require('./app/controller/DevController')
-const SearchController = require('./app/controller/SearchController')
+const DevController = require('./app/controllers/DevController')
+const SearchController = require('./app/controllers/SearchController')
 
 const routes = Router()
 
